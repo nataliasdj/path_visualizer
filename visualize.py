@@ -18,6 +18,8 @@ ORANGE= (255, 165, 0)
 GREY = (128, 128, 128)
 TURQUOISE = (64, 224, 208)
 
+#use the hamilton  
+
 #this keep track of cubes/nodes, where it is (aka position) need to know color, neighbors, 
 class Node: #visualization tool, or the little cubes
     #width = how wide is the node or cube
