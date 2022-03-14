@@ -7,6 +7,7 @@ WIDTH = 700
 WIN = pygame.display.set_mode((WIDTH, WIDTH)) # set up the display, the actual display, how big the display etc
 pygame.display.set_caption("Path Finding")
 
+#some colors
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
