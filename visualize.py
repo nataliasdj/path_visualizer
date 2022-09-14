@@ -95,9 +95,11 @@ def astar_algorithm(draw, grid, start, end):
     #draw() is called
     count = 0 #keep track of when we insert item to queue to break ties if f score same
     pq = PriorityQueue()
+    
     #add start node with original f score 1st param,3rd param is node itself
     pq.put((0, count, start))
     came_from = {}
+    
     #same as for row in grid: for node in row
     #key for every spot of gscore
     g_score = {node: float("inf") for row in grid for node in row}
